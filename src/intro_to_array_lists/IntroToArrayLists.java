@@ -18,15 +18,18 @@ public class IntroToArrayLists {
 			System.out.println(list);
 		}
 		// 4. Print all the Strings using a for-each loop
-		for (String stuff : list) {
-			System.out.println(stuff);
-		}
+		//for (String stuff : list) {
+			//System.out.println(stuff);
+		//}
 		// 5. Print only the even numbered elements in the list.
-		for (int i = 0; i < list.size(); i++) {
-			System.out.println(list.get(i));
-		}
+		//for (int i = 0; i < list.size(); i++) {
+			//System.out.println(list.get(i));
+		//}
 		// 6. Print all the Strings in reverse order.
-
+		for (int i = 0; i < list.size(); i++) {
+			list.remove("Wombat");
+			System.out.println(list);
+		}	
 		// 7. Print only the Strings that have the letter 'e' in them.
 	}
 }
